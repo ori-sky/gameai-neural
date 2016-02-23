@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+project(gameai-neural)
+include_directories(include)
+add_executable(gameai-neural src/main.cpp)
+set_property(TARGET gameai-neural PROPERTY CXX_STANDARD 14)
